@@ -17,6 +17,6 @@ if (contenidos[acceso]) {
   document.getElementById("name").innerText = contenidos[acceso].name;
 } else {
   acceso
-    ? (document.getElementById("name").innerText = acceso)
+    ? (document.getElementById("name").innerText = `de ${acceso}`)
     : (document.getElementById("name").innerText = "");
 }
