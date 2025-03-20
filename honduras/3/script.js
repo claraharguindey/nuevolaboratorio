@@ -37,7 +37,14 @@ const claveEncontrada = Object.keys(contenidos).find(
 
 if (claveEncontrada) {
   document.getElementById("name").innerText = contenidos[claveEncontrada].name;
-  document.getElementById("main").style.backgroundColor = contenidos[claveEncontrada].color;
+  document.getElementById("main").style.backgroundColor =
+    contenidos[claveEncontrada].color;
+  // document.getElementById("image1").style.display = "none";
+  // document.getElementById("image2").src = `./drawings/${claveEncontrada}`;
+  // document.getElementById(
+  //   "image2"
+  // ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
+  // document.getElementById("image2").style.filter = "invert(0)";
 } else {
   document.getElementById("name").innerText = acceso ? `de ${acceso}` : "";
 }
