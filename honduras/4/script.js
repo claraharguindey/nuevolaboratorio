@@ -8,7 +8,10 @@ const normalizeString = (str) => {
 
 const params = new URLSearchParams(window.location.search);
 let acceso = params.get("name");
-acceso = normalizeString(acceso);
+
+if (acceso) {
+  acceso = normalizeString(acceso);
+}
 
 const contenidos = {
   aday: { name: "de Aday" },
@@ -19,9 +22,9 @@ const contenidos = {
   daniel: { name: "de Daniel" },
   daniela: { name: "de Daniela" },
   estrella: { name: "de Estrella" },
-  joselorenzo: { name: "de Jose Lorenzo" },
+  joselorenzo: { name: "de José Lorenzo" }, 
   lucas: { name: "de Lucas" },
-  maricarmen: { name: "de Mari Carmen" },
+  maricarmen: { name: "de Mari Carmen" }, 
   miguel: { name: "de Miguel" },
   omnia: { name: "de Omnia" },
   ricky: { name: "de Ricky" },
@@ -30,10 +33,9 @@ const contenidos = {
   yareli: { name: "de Yareli" },
 };
 
-if (contenidos[acceso]) {
-  document.getElementById("name").innerText = contenidos[acceso].name;
-} else {
-  acceso
-    ? (document.getElementById("name").innerText = `de ${acceso}`)
-    : (document.getElementById("name").innerText = "");
-}
+const claveEncontrada = Object.keys(contenidos).find(
+  (key) => normalizeString(key) === acceso
+);
+
+document.getElementById("name").innerText =
+  claveEncontrada ? contenidos[claveEncontrada].name : acceso ? `de ${acceso}` : "";

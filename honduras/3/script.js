@@ -8,7 +8,10 @@ const normalizeString = (str) => {
 
 const params = new URLSearchParams(window.location.search);
 let acceso = params.get("name");
-acceso = normalizeString(acceso);
+
+if (acceso) {
+  acceso = normalizeString(acceso.trim());
+}
 
 const contenidos = {
   ritaj: { name: "de Ritaj" },
@@ -28,10 +31,12 @@ const contenidos = {
   cinthia: { name: "de Cinthia" },
 };
 
-if (contenidos[acceso]) {
-  document.getElementById("name").innerText = contenidos[acceso].name;
-} else {
-  acceso
-    ? (document.getElementById("name").innerText = `de ${acceso}`)
-    : (document.getElementById("name").innerText = "");
-}
+const claveEncontrada = Object.keys(contenidos).find(
+  (key) => normalizeString(key) === acceso
+);
+
+document.getElementById("name").innerText = claveEncontrada
+  ? contenidos[claveEncontrada].name
+  : acceso
+  ? `de ${acceso}`
+  : "";

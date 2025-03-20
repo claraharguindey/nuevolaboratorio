@@ -8,37 +8,39 @@ const normalizeString = (str) => {
 
 const params = new URLSearchParams(window.location.search);
 let acceso = params.get("name");
-acceso = normalizeString(acceso);
+
+if (acceso) {
+  acceso = normalizeString(acceso);
+}
 
 const contenidos = {
   vivian: { name: "de Vivian" },
-  nestor: { name: "de Nestor" },
+  nestor: { name: "de Néstor" },
   nasr: { name: "de Nasr" },
-  israe: { name: "de Israe" },
+  israel: { name: "de Israel" },
   nicanor: { name: "de Nicanor" },
-  ahinoa: { name: "de Ahinoa" },
+  ahinoa: { name: "de Ainhoa" },
   bella: { name: "de Bella" },
   luciana: { name: "de Luciana" },
-  mafe: { name: "de Mafe" },
+  mafe: { name: "de Mafê" },
   thiago: { name: "de Thiago" },
   javier: { name: "de Javier" },
-  matias: { name: "de Matias" },
+  matias: { name: "de Matías" },
   olivia: { name: "de Olivia" },
   natalia: { name: "de Natalia" },
-  jeremias: { name: "de Jeremias" },
-  mariajesus: { name: "de Maria Jesus" },
+  jeremias: { name: "de Jeremías" },
+  mariajesus: { name: "de María Jesús" },
   marta: { name: "de Marta" },
-  andres: { name: "de Andres" },
+  andres: { name: "de Andrés" },
   luciano: { name: "de Luciano" },
-  aylen: { name: "de Aylen" },
+  aylen: { name: "de Aylén" },
   dylan: { name: "de Dylan" },
-  alae: { name: "de Alae" },
+  alae: { name: "de Alaé" },
 };
 
-if (contenidos[acceso]) {
-  document.getElementById("name").innerText = contenidos[acceso].name;
-} else {
-  acceso
-    ? (document.getElementById("name").innerText = `de ${acceso}`)
-    : (document.getElementById("name").innerText = "");
-}
+const claveEncontrada = Object.keys(contenidos).find(
+  (key) => normalizeString(key) === acceso
+);
+
+document.getElementById("name").innerText =
+  claveEncontrada ? contenidos[claveEncontrada].name : acceso ? `de ${acceso}` : "";
