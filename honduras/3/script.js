@@ -20,7 +20,7 @@ const contenidos = {
   evaluna: { name: "de Eva Luna", color: "#7FFFD4" }, // Aguamarina
   esmeralda: { name: "de Esmeralda", color: "#32CD32" }, // Verde lima oscuro
   jose: { name: "de José", color: "#8A2BE2" }, // Azul violeta
-  nicanor: { name: "de Nicanor", color: "#DA70D6" }, // Orquídea
+  nicanor: { name: "de Nicanor", color: "#90da70" }, // Verde
   pedro: { name: "de Pedro", color: "#00BFFF" }, // Azul profundo
   hector: { name: "de Héctor", color: "#FF4500" }, // Naranja fuerte
   zyad: { name: "de Zyad", color: "#40E0D0" }, // Turquesa

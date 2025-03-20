@@ -14,7 +14,7 @@ if (acceso) {
 }
 
 const contenidos = {
-  aday: { name: "de Aday", color: "#FFB6C1" }, // Rosa claro
+  aday: { name: "de Aday", color: "#90da70" }, // Verde
   alma: { name: "de Alma", color: "#FFD700" }, // Dorado
   axel: { name: "de Axel", color: "#7FFFD4" }, // Aguamarina
   basma: { name: "de Basma", color: "#FF6347" }, // Rojo tomate

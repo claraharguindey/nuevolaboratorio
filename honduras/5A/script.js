@@ -18,8 +18,8 @@ const contenidos = {
   jeferson: { name: "de Jeferson", color: "#FFD700" }, // Dorado
   naiara: { name: "de Naiara", color: "#7FFFD4" }, // Aguamarina
   gabriela: { name: "de Gabriela", color: "#FF6347" }, // Rojo tomate
-  indira: { name: "de Indira", color: "#40E0D0" }, // Turquesa
-  juan: { name: "de Juan", color: "#FF69B4" }, // Rosa fuerte
+  indira: { name: "de Indira", color: "#FF69B4" }, // Rosa fuerte
+  juan: { name: "de Juan", color: "#40E0D0" }, // Turquesa 
   carlos: { name: "de Carlos", color: "#98FB98" }, // Verde claro
   thaily: { name: "de Thaily", color: "#FF4500" }, // Naranja fuerte
   santiago: { name: "de Santiago", color: "#DA70D6" }, // Orquídea
@@ -36,7 +36,7 @@ const contenidos = {
   luisa: { name: "de Luisa", color: "#20B2AA" }, // Verde azulado
   joscar: { name: "de Joscar", color: "#FFDAB9" }, // Melocotón
   gia: { name: "de Gía", color: "#B0E0E6" }, // Azul pálido
-  bernardo: { name: "de Bernardo", color: "#FF1493" }, // Rosa fuerte
+  bernardo: { name: "de Bernardo", color: "#90da70" }, // Rosa fuerte
   yadira: { name: "de Yadira", color: "#9932CC" }, // Púrpura oscuro
   englez: { name: "de Englez", color: "#00FA9A" }, // Verde marino
 };
