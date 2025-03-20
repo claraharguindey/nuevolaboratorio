@@ -14,33 +14,37 @@ if (acceso) {
 }
 
 const contenidos = {
-  vivian: { name: "de Vivian" },
-  nestor: { name: "de Néstor" },
-  nasr: { name: "de Nasr" },
-  israel: { name: "de Israel" },
-  nicanor: { name: "de Nicanor" },
-  ahinoa: { name: "de Ainhoa" },
-  bella: { name: "de Bella" },
-  luciana: { name: "de Luciana" },
-  mafe: { name: "de Mafê" },
-  thiago: { name: "de Thiago" },
-  javier: { name: "de Javier" },
-  matias: { name: "de Matías" },
-  olivia: { name: "de Olivia" },
-  natalia: { name: "de Natalia" },
-  jeremias: { name: "de Jeremías" },
-  mariajesus: { name: "de María Jesús" },
-  marta: { name: "de Marta" },
-  andres: { name: "de Andrés" },
-  luciano: { name: "de Luciano" },
-  aylen: { name: "de Aylén" },
-  dylan: { name: "de Dylan" },
-  alae: { name: "de Alaé" },
+  vivian: { name: "de Vivian", color: "#FFB6C1" }, // Rosa claro
+  nestor: { name: "de Néstor", color: "#FFD700" }, // Dorado
+  nasr: { name: "de Nasr", color: "#FF6347" }, // Rojo tomate
+  israel: { name: "de Israel", color: "#7FFFD4" }, // Aguamarina
+  nicanor: { name: "de Nicanor", color: "#40E0D0" }, // Turquesa
+  ahinoa: { name: "de Ainhoa", color: "#FF69B4" }, // Rosa fuerte
+  bella: { name: "de Bella", color: "#FFA07A" }, // Salmón
+  luciana: { name: "de Luciana", color: "#FFDAB9" }, // Melocotón
+  mafe: { name: "de Mafê", color: "#98FB98" }, // Verde claro
+  thiago: { name: "de Thiago", color: "#87CEEB" }, // Azul cielo
+  javier: { name: "de Javier", color: "#FF4500" }, // Naranja fuerte
+  matias: { name: "de Matías", color: "#DA70D6" }, // Orquídea
+  olivia: { name: "de Olivia", color: "#ADFF2F" }, // Verde lima
+  natalia: { name: "de Natalia", color: "#FF8C00" }, // Naranja oscuro
+  jeremias: { name: "de Jeremías", color: "#8A2BE2" }, // Azul violeta
+  mariajesus: { name: "de María Jesús", color: "#DC143C" }, // Rojo cereza
+  marta: { name: "de Marta", color: "#FF00FF" }, // Magenta
+  andres: { name: "de Andrés", color: "#20B2AA" }, // Verde azulado
+  luciano: { name: "de Luciano", color: "#32CD32" }, // Verde lima oscuro
+  aylen: { name: "de Aylén", color: "#9932CC" }, // Púrpura oscuro
+  dylan: { name: "de Dylan", color: "#00BFFF" }, // Azul profundo
+  alae: { name: "de Alaé", color: "#F08080" }, // Rojo coral
 };
 
 const claveEncontrada = Object.keys(contenidos).find(
   (key) => normalizeString(key) === acceso
 );
 
-document.getElementById("name").innerText =
-  claveEncontrada ? contenidos[claveEncontrada].name : acceso ? `de ${acceso}` : "";
+if (claveEncontrada) {
+  document.getElementById("name").innerText = contenidos[claveEncontrada].name;
+  document.body.style.backgroundColor = contenidos[claveEncontrada].color;
+} else {
+  document.getElementById("name").innerText = acceso ? `de ${acceso}` : "";
+}
