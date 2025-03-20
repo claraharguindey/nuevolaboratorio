@@ -11,7 +11,7 @@ let acceso = params.get("name");
 acceso = normalizeString(acceso);
 
 const contenidos = {
-  Vivian: { name: "de Vivian" },
+  vivian: { name: "de Vivian" },
   Nestor: { name: "de Nestor" },
   Nasr: { name: "de Nasr" },
   Israe: { name: "de Israe" },
