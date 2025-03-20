@@ -1,16 +1,31 @@
+const normalizeString = (str) => {
+  return str
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, "");
+};
+
 const params = new URLSearchParams(window.location.search);
-const acceso = params.get("name");
+let acceso = params.get("name");
+acceso = normalizeString(acceso);
 
 const contenidos = {
-  maria: { name: "de María Belen" },
-  estela: { name: "de Estela" },
-  sonia: { name: "de Sonia" },
-  anaisabel: { name: "de Ana Isabel" },
-  cristinaf: { name: "de Cristina Fernández" },
-  cristinab: { name: "de Cristina Blanco" },
-  daniel: { name: "de Daniel" },
-  clara: { name: "de Clara" },
-  laura: { name: "de Laura" },
+  ritaj: { name: "de Ritaj" },
+  manha: { name: "de Manha" },
+  celia: { name: "de Celia" },
+  evaluna: { name: "de Eva Luna" },
+  esmeralda: { name: "de Esmeralda" },
+  jose: { name: "de José" },
+  nicanor: { name: "de Nicanor" },
+  pedro: { name: "de Pedro" },
+  hector: { name: "de Héctor" },
+  zyad: { name: "de Zyad" },
+  imran: { name: "de Imran" },
+  sanou: { name: "de Sanou" },
+  mila: { name: "de Mila" },
+  javi: { name: "de Javi" },
+  cinthia: { name: "de Cinthia" },
 };
 
 if (contenidos[acceso]) {
