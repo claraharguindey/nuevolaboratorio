@@ -19,7 +19,7 @@ const contenidos = {
   nasr: { name: "de Nasr", color: "#FF6347" }, // Rojo tomate
   israel: { name: "de Israel", color: "#7FFFD4" }, // Aguamarina
   nicanor: { name: "de Nicanor", color: "#40E0D0" }, // Turquesa
-  ahinoa: { name: "de Ainhoa", color: "#FF69B4" }, // Rosa fuerte
+  ainhoa: { name: "de Ainhoa", color: "#FF69B4" }, // Rosa fuerte
   bella: { name: "de Bella", color: "#FFA07A" }, // Salmón
   luciana: { name: "de Luciana", color: "#FFDAB9" }, // Melocotón
   mafe: { name: "de Mafê", color: "#98FB98" }, // Verde claro
@@ -44,7 +44,7 @@ const claveEncontrada = Object.keys(contenidos).find(
 
 if (claveEncontrada) {
   document.getElementById("name").innerText = contenidos[claveEncontrada].name;
-  document.body.style.backgroundColor = contenidos[claveEncontrada].color;
+  document.getElementById("main").style.backgroundColor = contenidos[claveEncontrada].color;
 } else {
   document.getElementById("name").innerText = acceso ? `de ${acceso}` : "";
 }
