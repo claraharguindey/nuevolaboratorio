@@ -29,7 +29,7 @@ const contenidos = {
   mila: { name: "de Mila", color: "#8FBC8F" }, // Verde oscuro
   javi: { name: "de Javi", color: "#87CEEB" }, // Azul cielo
   cinthia: { name: "de Cinthia", color: "#FFD700" }, // Dorado
-  eithan: { name: "de Eithan", color: "#FFD700" }, // Dorado
+  eythan: { name: "de Eythan", color: "#FFD700" }, // Dorado
 };
 
 const claveEncontrada = Object.keys(contenidos).find(
