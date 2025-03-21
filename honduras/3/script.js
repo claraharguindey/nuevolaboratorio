@@ -29,6 +29,7 @@ const contenidos = {
   mila: { name: "de Mila", color: "#8FBC8F" }, // Verde oscuro
   javi: { name: "de Javi", color: "#87CEEB" }, // Azul cielo
   cinthia: { name: "de Cinthia", color: "#FFD700" }, // Dorado
+  eithan: { name: "de Eithan", color: "#FFD700" }, // Dorado
 };
 
 const claveEncontrada = Object.keys(contenidos).find(
@@ -39,12 +40,12 @@ if (claveEncontrada) {
   document.getElementById("name").innerText = contenidos[claveEncontrada].name;
   document.getElementById("main").style.backgroundColor =
     contenidos[claveEncontrada].color;
-  // document.getElementById("image1").style.display = "none";
-  // document.getElementById("image2").src = `./drawings/${claveEncontrada}`;
-  // document.getElementById(
-  //   "image2"
-  // ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
-  // document.getElementById("image2").style.filter = "invert(0)";
+  document.getElementById("image1").style.display = "none";
+  document.getElementById("image2").src = `./drawings/${claveEncontrada}`;
+  document.getElementById(
+    "image2"
+  ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
+  document.getElementById("image2").style.filter = "invert(0)";
 } else {
   document.getElementById("name").innerText = acceso ? `de ${acceso}` : "";
 }
