@@ -17,7 +17,7 @@ const contenidos = {
   vivian: { name: "de Vivian", color: "#FFB6C1" }, // Rosa claro
   nestor: { name: "de Néstor", color: "#FFD700" }, // Dorado
   nasr: { name: "de Nasr", color: "#FF6347" }, // Rojo tomate
-  israel: { name: "de Israel", color: "#7FFFD4" }, // Aguamarina
+  israe: { name: "de Israe", color: "#7FFFD4" }, // Aguamarina
   nicanor: { name: "de Nicanor", color: "#40E0D0" }, // Turquesa
   ainhoa: { name: "de Ainhoa", color: "#FF69B4" }, // Rosa fuerte
   bella: { name: "de Bella", color: "#FFA07A" }, // Salmón
@@ -46,12 +46,12 @@ if (claveEncontrada) {
   document.getElementById("name").innerText = contenidos[claveEncontrada].name;
   document.getElementById("main").style.backgroundColor =
     contenidos[claveEncontrada].color;
-  // document.getElementById("image1").style.display = "none";
-  // document.getElementById("image2").src = `./drawings/${claveEncontrada}`;
-  // document.getElementById(
-  //   "image2"
-  // ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
-  // document.getElementById("image2").style.filter = "invert(0)";
+  document.getElementById("image1").style.display = "none";
+  document.getElementById("image2").src = `./drawings/${claveEncontrada}.jpeg`;
+  document.getElementById(
+    "image2"
+  ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
+  document.getElementById("image2").style.filter = "invert(0)";
 } else {
   document.getElementById("name").innerText = acceso ? `de ${acceso}` : "";
 }
