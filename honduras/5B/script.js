@@ -34,7 +34,7 @@ const contenidos = {
   juan: { name: "de Juan", color: "#20B2AA" }, // Verde azulado
   yusra: { name: "de Yusra", color: "#32CD32" }, // Verde lima oscuro
   samara: { name: "de Samara", color: "#9932CC" }, // Púrpura oscuro
-  constan: { name: "de Constan", color: "#00BFFF" }, // Azul profundo
+  costan: { name: "de Costan", color: "#00BFFF" }, // Azul profundo
   joni: { name: "de Joni", color: "#F08080" }, // Rojo coral
   victoria: { name: "de Victoria", color: "#E6E6FA" }, // Lavanda
   mari: { name: "de Mari", color: "#C71585" }, // Rojo violeta
@@ -49,12 +49,12 @@ if (claveEncontrada) {
   document.getElementById("name").innerText = contenidos[claveEncontrada].name;
   document.getElementById("main").style.backgroundColor =
     contenidos[claveEncontrada].color;
-  // document.getElementById("image1").style.display = "none";
-  // document.getElementById("image2").src = `./drawings/${claveEncontrada}`;
-  // document.getElementById(
-  //   "image2"
-  // ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
-  // document.getElementById("image2").style.filter = "invert(0)";
+  document.getElementById("image1").style.display = "none";
+  document.getElementById("image2").src = `./drawings/${claveEncontrada}.jpeg`;
+  document.getElementById(
+    "image2"
+  ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
+  document.getElementById("image2").style.filter = "invert(0)";
 } else {
   document.getElementById("name").innerText = acceso ? `de ${acceso}` : "";
 }
