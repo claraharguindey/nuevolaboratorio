@@ -41,7 +41,7 @@ if (claveEncontrada) {
   document.getElementById("main").style.backgroundColor =
     contenidos[claveEncontrada].color;
   document.getElementById("image1").style.display = "none";
-  document.getElementById("image2").src = `./drawings/${claveEncontrada}`;
+  document.getElementById("image2").src = `./drawings/${claveEncontrada}.jpeg`;
   document.getElementById(
     "image2"
   ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
