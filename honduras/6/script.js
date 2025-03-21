@@ -22,7 +22,7 @@ const contenidos = {
   ainhoa: { name: "de Ainhoa", color: "#FF69B4" }, // Rosa fuerte
   bella: { name: "de Bella", color: "#FFA07A" }, // Salmón
   luciana: { name: "de Luciana", color: "#FFDAB9" }, // Melocotón
-  mafe: { name: "de Mafê", color: "#98FB98" }, // Verde claro
+  mafe: { name: "de Mafe", color: "#98FB98" }, // Verde claro
   thiago: { name: "de Thiago", color: "#87CEEB" }, // Azul cielo
   javier: { name: "de Javier", color: "#FF4500" }, // Naranja fuerte
   matias: { name: "de Matías", color: "#DA70D6" }, // Orquídea
