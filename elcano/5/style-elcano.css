@@ -1,0 +1,32 @@
+section {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 0.5rem 1rem;
+  max-width: 600px;
+  transition: all 0.3s ease;
+  display: none;
+}
+
+section h2.piedra-name {
+  text-align: left;
+  color: white;
+  font-family: Diatype;
+  margin-bottom: 0.5rem;
+  padding: 12px 0;
+  border-bottom: 1px solid white;
+}
+
+section p.piedra-type {
+  color: white;
+  font-family: Diatype;
+  border-bottom: 1px solid white;
+  padding: 12px 0;
+  margin-bottom: 0.5rem;
+}
+
+section p.piedra-description {
+  color: white;
+  padding: 12px 0;
+  line-height: 1.6;
+}

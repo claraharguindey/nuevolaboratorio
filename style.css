@@ -8,8 +8,15 @@ body {
   height: 100vh;
 }
 
+@font-face {
+  font-family: "Diatype";
+  src: url("diatype.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 main {
-  font-family: sans-serif;
+  font-family: Diatype;
   width: 100vw;
   height: 100vh;
   display: flex;
