@@ -6,7 +6,7 @@ const normalizeString = (str) => {
     .replace(/\s+/g, "");
 };
 
-// Descripciones poéticas por tipo de piedra
+
 const rockTypes = {
   ignea: {
     label: "Ígnea",
