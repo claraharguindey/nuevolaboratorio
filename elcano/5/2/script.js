@@ -108,7 +108,7 @@ const contenidos = {
   },
   brenda: {
     name: "de Brenda",
-    piedraNombre: "Esmeralda",
+    piedraNombre: "Doradito",
     piedraTipo: "metamorfica",
   },
   mathias: {
