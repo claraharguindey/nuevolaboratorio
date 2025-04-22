@@ -10,49 +10,152 @@ const normalizeString = (str) => {
 const rockTypes = {
   ignea: {
     label: "Ígnea",
-    description: "Este tipo de piedra nace del fuego profundo de la Tierra, cuando el magma se enfría lentamente hasta convertirse en cristal. Su esencia guarda la fuerza de los volcanes y el misterio de lo que arde en silencio bajo nuestros pies."
+    description:
+      "Este tipo de piedra nace del fuego profundo de la Tierra, cuando el magma se enfría lentamente hasta convertirse en cristal. Su esencia guarda la fuerza de los volcanes y el misterio de lo que arde en silencio bajo nuestros pies.",
   },
   sedimentaria: {
     label: "Sedimentaria",
-    description: "Este tipo de piedra se forma con paciencia infinita, capa sobre capa de historia, arena y tiempo. A menudo guarda secretos del pasado: fósiles, huellas, memorias atrapadas en la roca como si fueran sueños petrificados."
+    description:
+      "Este tipo de piedra se forma con paciencia infinita, capa sobre capa de historia, arena y tiempo. A menudo guarda secretos del pasado: fósiles, huellas, memorias atrapadas en la roca como si fueran sueños petrificados.",
   },
   metamorfica: {
     label: "Metamórfica",
-    description: "Este tipo de piedra ha vivido transformaciones profundas. Bajo la presión del mundo y el calor del cambio, renace en formas nuevas, con vetas y texturas que cuentan su viaje. Es una piedra que ha aprendido a ser bella en su evolución."
-  }
+    description:
+      "Este tipo de piedra ha vivido transformaciones profundas. Bajo la presión del mundo y el calor del cambio, renace en formas nuevas, con vetas y texturas que cuentan su viaje. Es una piedra que ha aprendido a ser bella en su evolución.",
+  },
 };
 
 const contenidos = {
-  ritaj: { 
-    name: "de Ritaj", 
-    piedraNombre: "Rubí", 
-    piedraTipo: "metamorfica"
+  amir: {
+    name: "de Amir",
+    piedraNombre: "Afrodita",
+    piedraTipo: "ignea",
   },
-  manha: { 
-    name: "de Manha", 
-    piedraNombre: "Ámbar", 
-    piedraTipo: "sedimentaria"
+  cristopher: {
+    name: "de Cristopher",
+    piedraNombre: "Lunática",
+    piedraTipo: "metamorfica",
   },
-  celia: { 
-    name: "de Celia", 
-    piedraNombre: "Cuarzo Rosa", 
-    piedraTipo: "ignea"
+  malumy: {
+    name: "de Malumy",
+    piedraNombre: "Solecita",
+    piedraTipo: "sedimentaria",
   },
-  evaluna: { 
-    name: "de Eva Luna", 
-    piedraNombre: "Aguamarina", 
-    piedraTipo: "ignea"
+  anastasiaizzy: {
+    name: "de Anastasia Izzy",
+    piedraNombre: "Marverita",
+    piedraTipo: "ignea",
   },
-  esmeralda: { 
-    name: "de Esmeralda", 
-    piedraNombre: "Esmeralda", 
-    piedraTipo: "metamorfica"
+  nayara: {
+    name: "de Nayara",
+    piedraNombre: "Cuernita",
+    piedraTipo: "sedimentaria",
   },
-  jose: { 
-    name: "de José", 
-    piedraNombre: "Amatista", 
-    piedraTipo: "ignea"
-  }
+  lara: {
+    name: "de Lara",
+    piedraNombre: "Abejatita",
+    piedraTipo: "ignea",
+  },
+  maria: {
+    name: "de Maria",
+    piedraNombre: "Terrenita",
+    piedraTipo: "sedimentaria",
+  },
+  rafael: {
+    name: "de Rafael",
+    piedraNombre: "Brr brr brr patapim",
+    piedraTipo: "metamorfica",
+  },
+  sanaira: {
+    name: "de Sanaira",
+    piedraNombre: "Jadita",
+    piedraTipo: "metamorfica",
+  },
+  ainhoa: {
+    name: "de Ainhoa",
+    piedraNombre: "Rubita",
+    piedraTipo: "sedimentaria",
+  },
+  loany: {
+    name: "de Loany",
+    piedraNombre: "Piedra Luz de Luna",
+    piedraTipo: "metamorfica",
+  },
+  darnell: {
+    name: "de Darnell",
+    piedraNombre: "Cuarita",
+    piedraTipo: "metamorfica",
+  },
+  edriclogan: {
+    name: "de Edric Logan",
+    piedraNombre: "Tienrita",
+    piedraTipo: "sedimentaria",
+  },
+  brenda: {
+    name: "de Brenda",
+    piedraNombre: "Lunita",
+    piedraTipo: "metamorfica",
+  },
+  mathias: {
+    name: "de Mathias",
+    piedraNombre: "La vatita",
+    piedraTipo: "metamorfica",
+  },
+  bruno: {
+    name: "de Bruno",
+    piedraNombre: "Meteorita",
+    piedraTipo: "ignea",
+  },
+  seydi: {
+    name: "de Seydi",
+    piedraNombre: "Adamantium",
+    piedraTipo: "ignea",
+  },
+  maayane: {
+    name: "de Maayane",
+    piedraNombre: "San Marino estalactita",
+    piedraTipo: "metamorfica",
+  },
+  esmeralda: {
+    name: "de Esmeralda",
+    piedraNombre: "Galita",
+    piedraTipo: "sedimentaria",
+  },
+  victoria: {
+    name: "de Victoria",
+    piedraNombre: "la piedra de los mil tralarelos",
+    piedraTipo: "sedimentaria",
+  },
+  nathalie: {
+    name: "de Nathalie",
+    piedraNombre: "Bomboclat",
+    piedraTipo: "sedimentaria",
+  },
+  valentina: {
+    name: "de Valentina",
+    piedraNombre: "",
+    piedraTipo: "sedimentaria",
+  },
+  aitor: {
+    name: "de Aitor",
+    piedraNombre: "",
+    piedraTipo: "sedimentaria",
+  },
+  allison: {
+    name: "de Allison",
+    piedraNombre: "",
+    piedraTipo: "sedimentaria",
+  },
+  mijael: {
+    name: "de Mijael",
+    piedraNombre: "",
+    piedraTipo: "sedimentaria",
+  },
+  kico: {
+    name: "de Kico",
+    piedraNombre: "",
+    piedraTipo: "sedimentaria",
+  },
 };
 
 const params = new URLSearchParams(window.location.search);
@@ -72,6 +175,7 @@ if (acceso) {
     document.getElementById("name").textContent = data.name;
     document.querySelector(".piedra-name").textContent = `${data.piedraNombre}`;
     document.querySelector(".piedra-type").textContent = `${typeData.label}`;
-    document.querySelector(".piedra-description").textContent = typeData.description;
+    document.querySelector(".piedra-description").textContent =
+      typeData.description;
   }
 }
