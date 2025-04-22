@@ -28,52 +28,57 @@ const rockTypes = {
 const contenidos = {
   amir: {
     name: "de Amir",
-    piedraNombre: "Afrodita",
+    piedraNombre: "Amimir",
     piedraTipo: "metamorfica",
   },
   jesus: {
     name: "de Jesús",
-    piedraNombre: "Afrodita",
+    piedraNombre: "Cuadradinho",
     piedraTipo: "ignea",
   },
   cristopher: {
     name: "de Cristopher",
-    piedraNombre: "Lunática",
+    piedraNombre: "Piedra diablo",
     piedraTipo: "metamorfica",
   },
   malumy: {
     name: "de Malumy",
-    piedraNombre: "Solecita",
+    piedraNombre: "Margarinilla",
+    piedraTipo: "sedimentaria",
+  },
+  zara: {
+    name: "de Zara",
+    piedraNombre: "Ara",
     piedraTipo: "sedimentaria",
   },
   nahomy: {
     name: "de Nahomy",
-    piedraNombre: "Solecita",
+    piedraNombre: "Oscuurita",
     piedraTipo: "sedimentaria",
   },
   anastasia: {
     name: "de Anastasia",
-    piedraNombre: "Marverita",
+    piedraNombre: "Tasia",
     piedraTipo: "ignea",
   },
   nayara: {
     name: "de Nayara",
-    piedraNombre: "Cuernita",
+    piedraNombre: "Aritopia",
     piedraTipo: "sedimentaria",
   },
   lara: {
     name: "de Lara",
-    piedraNombre: "Abejatita",
+    piedraNombre: "Fernita",
     piedraTipo: "ignea",
   },
   maria: {
     name: "de Maria",
-    piedraNombre: "Terrenita",
+    piedraNombre: "Calcetinista",
     piedraTipo: "sedimentaria",
   },
   rafael: {
     name: "de Rafael",
-    piedraNombre: "Brr brr brr patapim",
+    piedraNombre: "Margarita",
     piedraTipo: "ignea",
   },
   sanaira: {
@@ -83,7 +88,7 @@ const contenidos = {
   },
   ainhoa: {
     name: "de Ainhoa",
-    piedraNombre: "Rubita",
+    piedraNombre: "KebabxD",
     piedraTipo: "sedimentaria",
   },
   loany: {
@@ -93,52 +98,57 @@ const contenidos = {
   },
   darnell: {
     name: "de Darnell",
-    piedraNombre: "Cuarita",
+    piedraNombre: "Silence",
     piedraTipo: "sedimentaria",
   },
-  edriclogan: {
-    name: "de Edric Logan",
-    piedraNombre: "Tienrita",
+  logan: {
+    name: "de Logan",
+    piedraNombre: "Ogan",
     piedraTipo: "sedimentaria",
   },
   brenda: {
     name: "de Brenda",
-    piedraNombre: "Lunita",
+    piedraNombre: "Esmeralda",
     piedraTipo: "metamorfica",
   },
   mathias: {
     name: "de Mathias",
-    piedraNombre: "La vatita",
+    piedraNombre: "Cubo de Minecraft",
+    piedraTipo: "metamorfica",
+  },
+  gabriela: {
+    name: "de Gabriela",
+    piedraNombre: "Kebabsito",
     piedraTipo: "metamorfica",
   },
   bruno: {
     name: "de Bruno",
-    piedraNombre: "Meteorita",
+    piedraNombre: "holamellamopepe",
     piedraTipo: "ignea",
   },
   seydi: {
     name: "de Seydi",
-    piedraNombre: "Adamantium",
+    piedraNombre: "Rosita",
     piedraTipo: "sedimentaria",
   },
   maayane: {
     name: "de Maayane",
-    piedraNombre: "San Marino estalactita",
+    piedraNombre: "Embrolita",
     piedraTipo: "sedimentaria",
   },
   esmeralda: {
     name: "de Esmeralda",
-    piedraNombre: "Galita",
+    piedraNombre: "Clarita",
     piedraTipo: "sedimentaria",
   },
   victoria: {
     name: "de Victoria",
-    piedraNombre: "la piedra de los mil tralarelos",
+    piedraNombre: "Estrellín",
     piedraTipo: "metamorfica",
   },
   nathalie: {
     name: "de Nathalie",
-    piedraNombre: "Bomboclat",
+    piedraNombre: "Mi hermana y yo",
     piedraTipo: "sedimentaria",
   },
   valentina: {
@@ -148,22 +158,27 @@ const contenidos = {
   },
   aitor: {
     name: "de Aitor",
-    piedraNombre: "",
+    piedraNombre: "Firulais",
+    piedraTipo: "sedimentaria",
+  },
+  edric: {
+    name: "de Edric",
+    piedraNombre: "Fornitesito",
     piedraTipo: "sedimentaria",
   },
   allison: {
     name: "de Allison",
-    piedraNombre: "",
+    piedraNombre: "Saita",
     piedraTipo: "sedimentaria",
   },
   mijael: {
     name: "de Mijael",
-    piedraNombre: "",
+    piedraNombre: "Pelotin",
     piedraTipo: "metamorfica",
   },
   kico: {
     name: "de Kico",
-    piedraNombre: "",
+    piedraNombre: "Rockerilililla",
     piedraTipo: "sedimentaria",
   },
 };
