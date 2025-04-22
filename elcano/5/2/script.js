@@ -41,8 +41,13 @@ const contenidos = {
     piedraNombre: "Solecita",
     piedraTipo: "sedimentaria",
   },
-  anastasiaizzy: {
-    name: "de Anastasia Izzy",
+  anastasia: {
+    name: "de Anastasia",
+    piedraNombre: "Marverita",
+    piedraTipo: "ignea",
+  },
+  izzy: {
+    name: "de Izzy",
     piedraNombre: "Marverita",
     piedraTipo: "ignea",
   },
