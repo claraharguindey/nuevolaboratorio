@@ -29,6 +29,11 @@ const contenidos = {
   estrella: {
     name: "de Estrella",
     piedraNombre: "Rubí",
+    piedraTipo: "ignea",
+  },
+  ivanna: {
+    name: "de Ivanna",
+    piedraNombre: "Rubí",
     piedraTipo: "metamorfica",
   },
   sofia: {
@@ -44,7 +49,7 @@ const contenidos = {
   carlos: {
     name: "de Carlos",
     piedraNombre: "Aguamarina",
-    piedraTipo: "ignea",
+    piedraTipo: "sedimentaria",
   },
   carlos2: {
     name: "de Carlos",
@@ -54,7 +59,7 @@ const contenidos = {
   diego: {
     name: "de Diego",
     piedraNombre: "Aguamarina",
-    piedraTipo: "ignea",
+    piedraTipo: "sedimentaria",
   },
   abraham: {
     name: "de Abraham",
@@ -64,37 +69,32 @@ const contenidos = {
   aya: {
     name: "de Aya",
     piedraNombre: "Amatista",
-    piedraTipo: "ignea",
+    piedraTipo: "metamorfica",
   },
   emmanuel: {
     name: "de Emmanuel",
     piedraNombre: "Rubí",
-    piedraTipo: "metamorfica",
-  },
-  carlos2: {
-    name: "de Carlos",
-    piedraNombre: "Ámbar",
     piedraTipo: "sedimentaria",
   },
   andrea: {
     name: "de Andrea",
     piedraNombre: "Cuarzo Rosa",
-    piedraTipo: "ignea",
+    piedraTipo: "metamorfica",
   },
   brandi: {
     name: "de Brandi",
     piedraNombre: "Aguamarina",
-    piedraTipo: "ignea",
+    piedraTipo: "metamorfica",
   },
   ali: {
     name: "de Ali",
     piedraNombre: "Esmeralda",
-    piedraTipo: "metamorfica",
+    piedraTipo: "sedimentaria",
   },
   alexia: {
     name: "de Alexia",
     piedraNombre: "Amatista",
-    piedraTipo: "ignea",
+    piedraTipo: "metamorfica",
   },
   nicol: {
     name: "de Nicol",
@@ -104,7 +104,7 @@ const contenidos = {
   danielle: {
     name: "de Danielle",
     piedraNombre: "Ámbar",
-    piedraTipo: "sedimentaria",
+    piedraTipo: "ignea",
   },
   ahinara: {
     name: "de Ahinara",
@@ -114,32 +114,32 @@ const contenidos = {
   dylan: {
     name: "de Dylan",
     piedraNombre: "Aguamarina",
-    piedraTipo: "ignea",
+    piedraTipo: "metamorfica",
   },
   katy: {
     name: "de Katy",
     piedraNombre: "Esmeralda",
-    piedraTipo: "metamorfica",
+    piedraTipo: "sedimentaria",
   },
   amaia: {
     name: "de Amaia",
     piedraNombre: "Amatista",
-    piedraTipo: "ignea",
+    piedraTipo: "sedimentaria",
   },
   saul: {
     name: "de Saúl",
     piedraNombre: "Rubí",
-    piedraTipo: "metamorfica",
+    piedraTipo: "sedimentaria",
   },
   isabela: {
     name: "de Isa",
     piedraNombre: "Ámbar",
-    piedraTipo: "sedimentaria",
+    piedraTipo: "metamorfica",
   },
   mar: {
     name: "de Mar",
     piedraNombre: "Cuarzo Rosa",
-    piedraTipo: "ignea",
+    piedraTipo: "sedimentaria",
   },
   adrian: {
     name: "de Adrián",
@@ -149,7 +149,7 @@ const contenidos = {
   gabriel: {
     name: "de Gabriel",
     piedraNombre: "Esmeralda",
-    piedraTipo: "metamorfica",
+    piedraTipo: "ignea",
   },
 };
 
