@@ -29,6 +29,11 @@ const contenidos = {
   amir: {
     name: "de Amir",
     piedraNombre: "Afrodita",
+    piedraTipo: "metamorfica",
+  },
+  jesus: {
+    name: "de Jesús",
+    piedraNombre: "Afrodita",
     piedraTipo: "ignea",
   },
   cristopher: {
@@ -41,13 +46,13 @@ const contenidos = {
     piedraNombre: "Solecita",
     piedraTipo: "sedimentaria",
   },
+  nahomy: {
+    name: "de Nahomy",
+    piedraNombre: "Solecita",
+    piedraTipo: "sedimentaria",
+  },
   anastasia: {
     name: "de Anastasia",
-    piedraNombre: "Marverita",
-    piedraTipo: "ignea",
-  },
-  izzy: {
-    name: "de Izzy",
     piedraNombre: "Marverita",
     piedraTipo: "ignea",
   },
@@ -69,7 +74,7 @@ const contenidos = {
   rafael: {
     name: "de Rafael",
     piedraNombre: "Brr brr brr patapim",
-    piedraTipo: "metamorfica",
+    piedraTipo: "ignea",
   },
   sanaira: {
     name: "de Sanaira",
@@ -89,7 +94,7 @@ const contenidos = {
   darnell: {
     name: "de Darnell",
     piedraNombre: "Cuarita",
-    piedraTipo: "metamorfica",
+    piedraTipo: "sedimentaria",
   },
   edriclogan: {
     name: "de Edric Logan",
@@ -114,12 +119,12 @@ const contenidos = {
   seydi: {
     name: "de Seydi",
     piedraNombre: "Adamantium",
-    piedraTipo: "ignea",
+    piedraTipo: "sedimentaria",
   },
   maayane: {
     name: "de Maayane",
     piedraNombre: "San Marino estalactita",
-    piedraTipo: "metamorfica",
+    piedraTipo: "sedimentaria",
   },
   esmeralda: {
     name: "de Esmeralda",
@@ -129,7 +134,7 @@ const contenidos = {
   victoria: {
     name: "de Victoria",
     piedraNombre: "la piedra de los mil tralarelos",
-    piedraTipo: "sedimentaria",
+    piedraTipo: "metamorfica",
   },
   nathalie: {
     name: "de Nathalie",
@@ -154,7 +159,7 @@ const contenidos = {
   mijael: {
     name: "de Mijael",
     piedraNombre: "",
-    piedraTipo: "sedimentaria",
+    piedraTipo: "metamorfica",
   },
   kico: {
     name: "de Kico",
