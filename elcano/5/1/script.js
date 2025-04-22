@@ -31,8 +31,8 @@ const contenidos = {
     piedraNombre: "Rubí",
     piedraTipo: "metamorfica",
   },
-  aranza: {
-    name: "de Aranza",
+  sofia: {
+    name: "de Sofía",
     piedraNombre: "Ámbar",
     piedraTipo: "sedimentaria",
   },
@@ -42,6 +42,11 @@ const contenidos = {
     piedraTipo: "ignea",
   },
   carlos: {
+    name: "de Carlos",
+    piedraNombre: "Aguamarina",
+    piedraTipo: "ignea",
+  },
+  carlos2: {
     name: "de Carlos",
     piedraNombre: "Aguamarina",
     piedraTipo: "ignea",
@@ -81,8 +86,8 @@ const contenidos = {
     piedraNombre: "Aguamarina",
     piedraTipo: "ignea",
   },
-  juanAli: {
-    name: "de Juan Ali",
+  ali: {
+    name: "de Ali",
     piedraNombre: "Esmeralda",
     piedraTipo: "metamorfica",
   },
@@ -111,8 +116,8 @@ const contenidos = {
     piedraNombre: "Aguamarina",
     piedraTipo: "ignea",
   },
-  katherine: {
-    name: "de Katherine",
+  katy: {
+    name: "de Katy",
     piedraNombre: "Esmeralda",
     piedraTipo: "metamorfica",
   },
@@ -121,13 +126,13 @@ const contenidos = {
     piedraNombre: "Amatista",
     piedraTipo: "ignea",
   },
-  jackson: {
-    name: "de Jackson",
+  saul: {
+    name: "de Saúl",
     piedraNombre: "Rubí",
     piedraTipo: "metamorfica",
   },
-  anaMaria: {
-    name: "de Ana María",
+  isabela: {
+    name: "de Isa",
     piedraNombre: "Ámbar",
     piedraTipo: "sedimentaria",
   },
@@ -141,8 +146,8 @@ const contenidos = {
     piedraNombre: "Aguamarina",
     piedraTipo: "ignea",
   },
-  angel: {
-    name: "de Ángel",
+  gabriel: {
+    name: "de Gabriel",
     piedraNombre: "Esmeralda",
     piedraTipo: "metamorfica",
   },
