@@ -55,7 +55,7 @@ if (claveEncontrada) {
   document.getElementById("image2").src = `./drawings/${claveEncontrada}.jpeg`;
   document.getElementById(
     "image2"
-  ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
+  ).alt = `El poder ${contenidos[claveEncontrada].name}`;
   document.getElementById("image2").style.filter = "invert(0)";
 } else {
   document.getElementById("name").innerText = acceso ? `de ${acceso}` : "";
