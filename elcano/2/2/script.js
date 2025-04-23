@@ -31,6 +31,7 @@ const contenidos = {
   mehjabin: { name: "de Mehjabin", color: "#5F9EA0" }, // Verde cadete
   gabriela: { name: "de Gabriela", color: "#FA8072" }, // Salmón
   jorgan: { name: "de Jorgan", color: "#A0522D" }, // Marrón rojizo
+  jordan: { name: "de Jordan", color: "#A0522D" }, // Marrón rojizo
   lucas: { name: "de Lucas", color: "#FF8C00" }, // Naranja oscuro
   alan: { name: "de Alan", color: "#7B68EE" }, // Azul pizarra medio
   katalina: { name: "de Katalina", color: "#FFDAB9" }, // Melocotón
@@ -40,6 +41,7 @@ const contenidos = {
   noemi: { name: "de Noemí", color: "#B22222" }, // Rojo ladrillo
   alaia: { name: "de Alaia", color: "#DB7093" }, // Rosa pálido
   vanessa: { name: "de Vanessa", color: "#4682B4" }, // Azul acero
+  yandira: { name: "de Yadira", color: "#4682B4" }, // Azul acero
   sarayma: { name: "de Sarayma", color: "#9ACD32" }, // Verde amarillento
 };
 
@@ -56,7 +58,7 @@ if (claveEncontrada) {
   document.getElementById("image2").src = `./drawings/${claveEncontrada}.jpeg`;
   document.getElementById(
     "image2"
-  ).alt = `El poder de ${contenidos[claveEncontrada].name}`;
+  ).alt = `El poder ${contenidos[claveEncontrada].name}`;
   document.getElementById("image2").style.filter = "invert(0)";
 } else {
   document.getElementById("name").innerText = acceso ? `de ${acceso}` : "";
