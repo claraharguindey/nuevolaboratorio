@@ -37,7 +37,8 @@ const contenidos = {
   nicolas: { name: "de Nicolás", color: "#00FF7F" }, // Verde primavera
   naomi: { name: "de Naomi", color: "#FAFAD2" }, // Amarillo claro
   antonella: { name: "de Antonella", color: "#FFC0CB" }, // Rosa
-  ianAlessandro: { name: "de Ian Alessandro", color: "#BDB76B" }, // Caqui oscuro
+  iani: { name: "de  Ian", color: "#BDB76B" }, // Caqui oscuro
+  alessandro: { name: "de  Alessandro", color: "#BDB76B" }, // Caqui oscuro
   miguel: { name: "de Miguel", color: "#00BFFF" },
   abigail: { name: "de Abigail", color: "#00BFFF" }, // Azul profundo
 };
