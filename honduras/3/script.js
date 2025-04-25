@@ -18,7 +18,7 @@ const contenidos = {
   manha: { name: "de Manha", color: "#FFD700" }, // Dorado
   celia: { name: "de Celia", color: "#FFB6C1" }, // Rosa claro
   evaluna: { name: "de Eva Luna", color: "#7FFFD4" }, // Aguamarina
-  esmeralda: { name: "de Esmeraldaa", color: "#32CD32" }, // Verde lima oscuro
+  esmeralda: { name: "de Esmeralda", color: "#32CD32" }, // Verde lima oscuro
   jose: { name: "de José", color: "#8A2BE2" }, // Azul violeta
   nicanor: { name: "de Nicanor", color: "#90da70" }, // Verde
   pedro: { name: "de Pedro", color: "#00BFFF" }, // Azul profundo
