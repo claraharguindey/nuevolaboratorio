@@ -39,6 +39,13 @@ const contenidos = {
   bernardo: { name: "de Bernardo", color: "#90da70" }, // Rosa fuerte
   yadira: { name: "de Yadira", color: "#9932CC" }, // Púrpura oscuro
   englez: { name: "de Englez", color: "#00FA9A" }, // Verde marino
+
+  roos: { name: "de Roos", color: "#C71585" }, // Azul pálido
+  rocio: { name: "de Rocío", color: "#FF00FF" }, // Azul pálido
+  andree: { name: "de Andree", color: "#90da70" }, // Azul pálido
+  mari: { name: "de Mari", color: "#40E0D0" }, // Azul pálido
+  daray: { name: "de Daray", color: "#FFB6C1" }, // Azul pálido
+
 };
 
 const claveEncontrada = Object.keys(contenidos).find(
