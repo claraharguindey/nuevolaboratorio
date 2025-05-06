@@ -45,6 +45,7 @@ const contenidos = {
   andree: { name: "de Andree", color: "#90da70" }, // Azul pálido
   mari: { name: "de Mari", color: "#40E0D0" }, // Azul pálido
   daray: { name: "de Daray", color: "#FFB6C1" }, // Azul pálido
+  atenea: { name: "de Atenea", color: "#FFB6C1" }, // Azul pálido
 
 };
 
